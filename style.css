@@ -1,0 +1,75 @@
+*{
+    font-family: 'Inter', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0);
+    z-index: 100;
+
+
+/*Blur for now*/
+    backdrop-filter: blur(15px);
+}
+header ul{
+    margin: 0;
+    display: flex;
+    list-style-type: none;
+}
+header ul a{
+    padding: 10px;
+}
+header i{
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.right-side-navbar{
+    padding: 10px;
+    margin-right: 70px;
+}
+#centered-logo-navbar{
+    background-image: url(./silfen-logo-black.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    left: 50vw;
+    margin-left: -85px;
+    position: relative;
+}
+.centered-logo-navbar-container{
+    position: absolute;
+    height: 80px;
+    width: 170px;
+}
+#different-color-responsibility{
+    color: #6EC1E4;
+}
+
+
+
+
+
+/* THATS A TEST CAT*/
+#test{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(./test.jpeg);
+    background-size: cover;
+
+}
